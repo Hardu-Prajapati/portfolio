@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: antiquewhite;
+}
+
+header {
+    height: 10vh;
+}
+
+#logo {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.navbar {
+    background: linear-gradient(180deg, orange, transparent);
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    font-family: cursive;
+    font-weight: 900;
+    color: black;
+    list-style: none;
+    padding: 0px;
+    margin: 26px;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #3a300b;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 50px;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 0px 23px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    border: none;
+    border-radius: 1rem;
+    background: navajowhite;
+    backdrop-filter: blur(50px);
+    min-height: 80vh;
+    width: 80vh;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.currency-box {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+form input {
+    background: lightyellow;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    height: 2rem;
+}
+
+.dropdown {
+    gap: 1rem;
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 0.4rem;
+    display: flex;
+    /* background: red; */
+    height: 2rem;
+    width: 7rem;
+}
+
+.dropdown select {
+    width: 3.7rem;
+    background: transparent;
+    border-radius: 0.4rem;
+}
+
+.fa-solid,
+.fas {
+    font-weight: 900;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.submit {
+    background: lightyellow;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    border-radius: 13px;
+    border: none;
+    height: 2.5rem;
+    width: 10rem;
+}
+
+.Answer {
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    background: burlywood;
+    padding: 2rem;
+}
+
+.hide {
+    display: none;
+}
+
+.footer {
+    background: linear-gradient(360deg, orange, transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
