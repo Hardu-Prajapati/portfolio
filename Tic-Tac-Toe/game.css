@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ background-image: url('../image/background.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+    text-align: center;
+}
+h1{
+    font-family: cursive;
+    text-decoration: underline;
+    font-size: 7vmin;
+    color: white;
+}
+h3{
+    position: absolute;
+    right: 23px;
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-style: inherit;
+}
+/* designing the new game button */
+.new{
+    padding: 9px;
+    margin: 23px;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 1rem;
+    background-color: #fafaf4;
+    color: indigo;
+    font-weight: bold;
+}
+.new:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    border-color: white;
+ }
+/* desigining the boxes */
+.container{
+   
+    height: 80vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+   
+}
+.game{
+    padding: 25px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    height: 70vmin;
+    display: flex;
+    width: 70vmin;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    border-radius: 11px;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    height: 20vmin;
+    width: 20vmin;
+    font-size: 10vmin;
+    color:white;
+    /* background-color: #ffffc7; */
+    background: transparent;
+    border: 2px solid;
+    border-color: mediumorchid
+}
+.box:hover{
+    cursor: pointer;
+}
+/* designing the reset game button */
+.reset{
+    padding: 15px;
+    margin: 0px;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 1rem;
+    background-color: #f3f3ef;
+    color: indigo;
+    font-weight: bold;
+
+}
+.reset:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    border-color: white;
+ }
+ /* winnig msg designing */
+ .win-msg{
+    background-color: transparent;
+    /* border: none; */
+    backdrop-filter: blur(21px);
+    padding: 30px;
+    border-radius: 22px;
+    border: 1px solid white;
+    color: #dddae0;
+    font-size: 5vmin;
+    font-weight: 100;
+}
+ 
+ .new-btn{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+ }
+ .hide{
+    display: none;
+ }
