@@ -1,0 +1,481 @@
+@media (max-width:1500px){
+    .About{
+        gap: 3vw;
+    }
+    .img-side {
+        margin-left: 4vw;
+    }
+    .img-side img {
+        width: auto;
+        /* margin-top: 34px; */
+        border-radius: 8vh;
+        height: 75vh;
+    }
+    .sep {
+        margin-top: 5vh;
+        gap: 4vw;
+        display: flex;
+        /* position: relative; */
+    }
+}
+@media (max-width:880px){
+    .left h1{
+        font-size: 5vw;
+    }
+    .left p{
+        font-size: 2.3vw;
+        margin-right: 10vw;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:700px){
+    
+    .hode2{
+        display: none;
+    }
+    .fa-bars{
+        margin-left: 55vw;
+        display: flex;
+        font-size: larger;
+    }
+    nav{
+        justify-content: start;
+        margin-left: 2vw;
+        font-size: 3vw;
+    }
+    nav ul{
+        display: none;
+        /* background: cornflowerblue; */
+        /* width: 100vw;
+        height: 120vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30vh;
+        margin-left: 47vw;
+        gap: 10vh; */
+    }    
+    .menus {
+        /* display: none; */
+        font-size: 3.3vw;
+        list-style: none;
+    }
+    .content{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .left{
+        height: 15vh;
+    }
+    .right {
+        height: 60vmax;
+        width: 45vh;
+    }
+    .left h1{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        font-size: 7vw;
+    }
+    .left p {
+        width: 100vw;
+        font-size: 3vw;
+        margin-right: 3vw;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+    /* ------------------------------------------------------------------------------------------------------------------- */
+
+    .img-side img {
+        object-fit: cover;
+        width: 70vw;
+        /* margin-top: 34px; */
+        border-radius: 8vh;
+        height: 91vh;
+    }
+    .info-side {
+        /* height: 100%; */
+        gap: 3vh;
+        top: 1rem;
+        left: -4rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 15vh;
+        /* margin-top: -50vh; */
+    }
+    .About {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        align-items: center;
+        /* height: 110vh; */
+        margin-top: 3vh;
+        /* display: flex; */
+        justify-content: space-around;
+        gap: 0vh;
+    }
+    .img-side {
+        margin-left: 0;
+    }
+    .sep{
+        margin-left: 8vw;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    #underline{
+        display: none;
+    }
+    .sep h3{
+        color: cornflowerblue;
+    }
+    .Projects{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        align-items: center;
+        font-family: system-ui;
+        font-size: larger;
+        /* margin-top: 4vh; */
+    }
+    .a {
+        background: orchid;
+        height: 2vh;
+        width: 65vw;
+    }
+    .b {
+        background: darkorchid;
+        height: 2vh;
+        width: 58vw;
+    }
+    .c {
+        background: lightpink;
+        height: 2vh;
+        width: 51vw;
+    }
+}
+@media (max-width:1190px){
+    .col-2{
+        margin-left: 9vw;
+    }
+    .p-content button {
+        width: 30vw;
+        border-radius: 4vh;
+        padding: 3vh;
+        background: transparent;
+        color: dodgerblue;
+        font-size: larger;
+        font-weight: 600;
+        font-family: sans-serif;
+        /* transition: 0.80s; */
+        text-decoration: none;
+    }
+    .projects h1 {
+        font-size: 7vh;
+        font-family: system-ui;
+        color: dodgerblue;
+        margin-right: 2vw;
+    }
+    .projects{
+        margin-top: -10vh;
+    }
+    .projects img {
+        height: 48vh;
+        width: 30vw;
+        border-radius: 4vh;
+        /* transition: 0.5s; */
+    }
+}
+@media (max-width:1065px){
+    .col-2{
+        margin-left: 9vw;
+    }
+    .p-content button {
+        width: 36vw;
+        border-radius: 4vh;
+        padding: 3vh;
+        background: transparent;
+        color: dodgerblue;
+        font-size: larger;
+        font-weight: 600;
+        font-family: sans-serif;
+        /* transition: 0.80s; */
+        text-decoration: none;
+    }
+    .projects h1 {
+        font-size: 7vh;
+        font-family: system-ui;
+        color: dodgerblue;
+        margin-right: 2vw;
+    }
+    .projects{
+        margin-top: -10vh;
+    }
+    .projects img {
+        height: 51vh;
+        width: 37vw;
+        border-radius: 4vh;
+        /* transition: 0.5s; */
+    }
+}
+@media (max-width:1242px){
+    .projects h1 {
+        font-size: 7vh;
+        font-family: system-ui;
+        color: dodgerblue;
+        margin-right: 2vw;
+    }
+    .projects{
+        margin-top: 10vh;
+    }
+    .p-content{
+        flex-wrap: wrap;
+        margin-top: 6vh;
+        width: auto;
+        height: 100%;
+    }
+    .p-content .img-1,.img-2,.img-3{
+        height: 80%;
+        width: 50%;
+        margin-top: 5vh;
+    }
+    footer {
+        font-family: system-ui;
+        height: 80%;
+        background: dodgerblue;
+        display: flex;
+        justify-content: center;
+        gap: 8vw;
+        flex-wrap: wrap;
+        margin-top: 75vh;
+    }
+    .col-2{
+        margin-left: 9vw;
+    }
+    
+}
+@media (max-width:900px){
+    .col-2{
+        margin-left: 12vw;
+    }
+    .p-content button {
+        width: 40vw;
+        border-radius: 4vh;
+        padding: 3vh;
+        background: transparent;
+        color: dodgerblue;
+        font-size: larger;
+        font-weight: 600;
+        font-family: sans-serif;
+        /* transition: 0.80s; */
+        text-decoration: none;
+    }
+    .projects h1 {
+        font-size: 7vh;
+        font-family: system-ui;
+        color: dodgerblue;
+        margin-right: 3vw;
+    }
+    .projects{
+        margin-top: -10vh;
+    }
+    .projects img {
+        height: 48vh;
+        width: 40vw;
+        border-radius: 4vh;
+        /* transition: 0.5s; */
+    }
+}
+@media (max-width:736px){
+    footer {
+        font-family: system-ui;
+        height: 80%;
+        background: dodgerblue;
+        display: flex;
+        justify-content: center;
+        gap: 8vw;
+        flex-wrap: wrap;
+        margin-top: 55vh;
+    }
+    .p-content button {
+        width: 42vw;
+        border-radius: 4vh;
+        padding: 3vh;
+        background: transparent;
+        color: dodgerblue;
+        font-size: larger;
+        font-weight: 600;
+        font-family: sans-serif;
+        /* transition: 0.80s; */
+        text-decoration: none;
+    }
+    .projects{
+        margin-top: -10vh;
+    }
+    .projects h1 {
+        font-size: 7vh;
+        font-family: system-ui;
+        color: dodgerblue;
+        margin-right: 3vw;
+    }
+    .p-content {
+        flex-wrap: wrap;
+        margin-top: 6vh;
+        width: auto;
+        height: 100%;
+        gap: 5vh;
+    }
+    .p-content .img-1, .img-2, .img-3 {
+        height: 68%;
+        width: auto;
+        margin-top: 1vh;
+    }
+    .p-content h2 {
+        font-size: 4vw;
+        color: slategray;
+    }
+    .projects img {
+        height: 50vh;
+        width: 45vw;
+        border-radius: 4vh;
+        /* transition: 0.5s; */
+    }
+}
+@media (max-width:701px){
+    .col-2{
+        margin-left: 14vw;
+    }
+    .p-content button {
+        width: 45vw;
+        border-radius: 4vh;
+        padding: 3vh;
+        background: transparent;
+        color: dodgerblue;
+        font-size: larger;
+        font-weight: 600;
+        font-family: sans-serif;
+        /* transition: 0.80s; */
+        text-decoration: none;
+    }
+    .projects {
+        margin-top: 70vh;
+    }
+    .projects h1 {
+        font-size: 6vh;
+        font-family: system-ui;
+        color: dodgerblue;
+        margin-right: 2vw;
+    }
+}
+@media (max-width:600px){
+    .col-3{
+        margin-top: 10vh;
+    }
+    .col-2{
+        margin-right: 15vw;
+    }
+    footer h2 {
+        font-size: 5.4vw;
+        color: lightcyan;
+    }
+    .col-1{
+        margin-right: 2vw;
+        margin-top: 14vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+        width: 100%;
+        height: 10%;
+    }
+    footer {
+        font-family: system-ui;
+        height: 80%;
+        background: dodgerblue;
+        display: flex;
+        justify-content: center;
+        gap: 8vw;
+        flex-wrap: wrap;
+        margin-top: 130vh;
+    }
+    h1 {
+        font-size: 6vh;
+        font-family: system-ui;
+        color: dodgerblue;
+        margin-right: 2vw;
+    }
+    .p-content {
+        flex-wrap: wrap;
+        margin-top: 6vh;
+        width: 71%;
+        height: 100%;
+        gap: 5vh;
+    }
+    .p-content .img-1, .img-2, .img-3 {
+        height: 68%;
+        width: auto;
+        margin-top: 1vh;
+    }
+    .p-content h2 {
+        font-size: 5vw;
+        color: slategray;
+    }
+    .projects img {
+        height: 45vh;
+        width: 60vw;
+        border-radius: 4vh;
+        /* transition: 0.5s; */
+    }
+    .p-content button {
+        width: 57vw;
+        border-radius: 4vh;
+        padding: 3vh;
+        background: transparent;
+        color: dodgerblue;
+        font-size: larger;
+        font-weight: 600;
+        font-family: sans-serif;
+        /* transition: 0.80s; */
+        text-decoration: none;
+    }
+}
+@media (max-width:475px){
+    .projects img {
+        height: 45vh;
+        width: 70vw;
+        border-radius: 4vh;
+        /* transition: 0.5s; */
+    }
+    .p-content button {
+        width: 69vw;
+        border-radius: 4vh;
+        padding: 3vh;
+        background: transparent;
+        color: dodgerblue;
+        font-size: larger;
+        font-weight: 600;
+        font-family: sans-serif;
+        /* transition: 0.80s; */
+        text-decoration: none;
+    }
+}
+@media (max-width:413px){
+    footer {
+        font-family: system-ui;
+        height: 89%;
+        background: dodgerblue;
+        display: flex;
+        justify-content: center;
+        gap: 8vw;
+        flex-wrap: wrap;
+        margin-top: 130vh;
+    }
+}
