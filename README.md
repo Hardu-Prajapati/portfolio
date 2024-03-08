@@ -1,3 +1,2 @@
 # Visit live site 
-
-https://hardu-prajapati.github.io/portfolio/
+<a href="https://hardu-prajapati.github.io/portfolio/">Go to live site</a>
